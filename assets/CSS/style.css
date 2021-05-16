@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP&display=swap');
+
+:root {
+    --heading-font-family:'noto sans',sans-serif;
+    --text-font-family:JP, san-serif;
+    --bg-color:#444444;
+}
+
 body {
     padding-top: 70px;
+    font-family: var(--text-font-family);
+    color: var(--bg-color)
+}
+
+h1,h2 {
+    font-family: var(--heading-font-family);
 }
 
 /* logo size */
@@ -7,6 +21,35 @@ body {
 .logo-img {
     width: 50px;
 }
+
+/* footer */
+
+footer {
+    background-color: #444444;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: -10px;
+    padding-bottom: 0;
+     text-decoration: none;
+    color: #fdf5e6;
+    list-style: none;
+} 
+
+footer .logo-img {
+   height: 50px;
+   width: 50px;
+   margin: 0;
+   padding: 0;
+ }
+ 
+.sns {
+    font-size: 200%;
+    list-style: none;
+    letter-spacing: 10px;
+    display: inline-flex;
+    }
 
 /* Hero image */
 
