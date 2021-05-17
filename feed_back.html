@@ -35,12 +35,12 @@
 
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li>
-                        <a href="index.html" class="nav-link active">HOME</a> </li>
+                        <a href="index.html" class="nav-link">HOME</a> </li>
                     <li>
                         <a href="common_injuries.html" class="nav-link">Common Injuries</a>
                     </li>
                     <li>
-                        <a href="feed_back.html" class="nav-link">Feed Back</a>
+                        <a href="feed_back.html" class="nav-link active">Feed Back</a>
                     </li>
                 </ul>
             </div>
@@ -51,11 +51,10 @@
     <section>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12 hero-image">
+                <div class="col-12 feedback_img">
                     <div class="hero-text">
-                        <h2>Overuse sports injuries</h2>
-                        <p>Promoting the awareness of sports injuries among young adult and
-                            children during thier growth spurt.</p>
+                        <h2>Get in Touch <br>
+                            Share your story</h2>
                     </div>
                 </div>
             </div>
@@ -63,62 +62,25 @@
     </section>
 
     <section>
-        <h2>What is overuse injuries</h2>
-        <p>Because young athletes are still growing, they are at a greater risk for injury than adults. The
-            consequences
-            of overdoing a sport can include injuries that impair growth, and may lead to long-term health problems.
-        </p>
-        <p>Sports participation promotes the physical and emotional well being of children, and also encourages the
-            lifelong habit of exercise. Although the benefits of athletic activity are significant, too much
-            activity
-            can lead to injury.
-
-            In recent years, doctors have begun to see a significant increase in overuse injuries in children. In
-            most
-            cases, these injuries are associated with sports-related activity.</p>
-        <p>When a young athlete repeatedly complains of pain, a period of rest from the sport is necessary. If pain
-            persists, it is important to seek proper medical treatment. To ensure the best possible recovery,
-            athletes,
-            coaches, and parents must follow safe guidelines for returning to the game.</p>
-        <p>Overuse injuries can affect muscles, ligaments, tendons, bones, and growth plates. In children, these
-            structures are still growing, and the growth is generally uneven. Bones grow first, which pulls at tight
-            muscles and tendons. This uneven growth pattern makes younger athletes more susceptible to muscle,
-            tendon,
-            and growth plate injuries.</p>
-    </section>
+        <h2>Feedback form</h2>
+       <form action="https://formdump.codeinstitute.net/" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Your Email Address" required>
+        <label for="area">Concern Area</label>
+        <select name="area" id="area">
+            <option value="knee">Knee and Heel</option>
+            <option value="back">Back</option>
+            <option value="bones">Bones</option>
+            <option value="other">Other</option>
+        </select>
+            <label for="comment">Your Comments:</label>
+            <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Type your concern or comment here"></textarea>
+            <input type="submit" value="Send!">
 
 
-
-    <section>
-        <h2>Common overuse injuries and suggestions</h2>
-        <div class="row">
-            <div class="col-12 col-md-3 col-lg-3">
-                <a href="common_injuries.html#knee">
-                    <img src="assets/images/knee.jpg" alt="A boy kicking soccer ball" class="link-photo">
-                </a>
-
-            </div>
-
-            <div class="col-12 col-md-3 col-lg-3">
-                <a href="common_injuries.html#bones">
-                    <img src="assets/images/bones.jpg" alt="bones-photo" class="link-photo">
-                </a>
-
-            </div>
-
-            <div class="col-12 col-md-3 col-lg-3">
-                <a href="common_injuries.html#back">
-                    <img src="assets/images/back.jpg" alt="Young man with back pain" class="link-photo">
-                </a>
-
-            </div>
-
-            <div class="col-12  col-md-3 col-lg-3">
-                <a href="common_injuries.html#prevention">
-                    <img src="assets/images/prevention.jpg" alt="Kids stretching after training">
-                </a>
-            </div>
-        </div>
+       </form>
     </section>
 
 
