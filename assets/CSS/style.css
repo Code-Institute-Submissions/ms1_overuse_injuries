@@ -88,6 +88,26 @@ select {
     height: 30px;
 }
 
+/* Category section */
+
+.cat-text {
+    background-color: var(--bg-color);
+    height: 200px;
+    width: 24vw;
+    padding: 0;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0;
+}
+
+.cat-img {
+    height: 200px;
+    width: 24vw;
+  /* object-fit: cover;*/
+    padding: 0;
+    margin: 0;
+}
+
 /*Feedback page */
 
 .feedback_img {
