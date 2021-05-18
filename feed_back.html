@@ -62,25 +62,40 @@
     </section>
 
     <section>
-        <h2>Feedback form</h2>
-       <form action="https://formdump.codeinstitute.net/" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" placeholder="Your Name" required>
-        <label for="email">Email:</label>
+        <h2 class="center-text">Feedback form</h2>
+        
+             <form action="https://formdump.codeinstitute.net/" method="POST">
+                <div class="grid-container">
+        <div id="form-name">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Your Name" required>
+        </div>
+        <div id="form-email">
+            <label for="email">Email:</label>
         <input type="email" id="email" placeholder="Your Email Address" required>
-        <label for="area">Concern Area</label>
+        </div>
+        <div id="form-concern">
+            <label for="area">Concern Area</label>
         <select name="area" id="area">
             <option value="knee">Knee and Heel</option>
             <option value="back">Back</option>
             <option value="bones">Bones</option>
             <option value="other">Other</option>
         </select>
+        </div>
+        <div id="form-comment">
             <label for="comment">Your Comments:</label>
             <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Type your concern or comment here"></textarea>
-            <input type="submit" value="Send!">
+        </div>
+            <div id="form-send">
+                <input type="submit" value="Send!">
+            </div>
+            
 
 
        </form>
+        </div>
+      
     </section>
 
 
