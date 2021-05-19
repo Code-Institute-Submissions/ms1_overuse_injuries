@@ -20,7 +20,7 @@ Footer with disclaimer that disappear when screen size is smaller to avoid too m
 
 Wireframe:
 
-(wireframe/ms1_wireframe.jpg)
+![wireframe screen shot](wireframe/ms1_wireframe.jpg)
 
 ## Existing Features
 * Nav bar which transforms to a humberger menu for smaller devices
