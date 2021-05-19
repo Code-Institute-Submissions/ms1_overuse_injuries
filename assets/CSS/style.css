@@ -92,27 +92,27 @@ select {
 /* Category section */
 
 .cat-text {
-    background: rgb(228,189,44);
-background: linear-gradient(223deg, rgba(228,189,44,1) 0%, rgba(142,39,11,1) 100%);
+    background: rgb(228, 189, 44);
+    background: linear-gradient(223deg, rgba(228, 189, 44, 1) 0%, rgba(142, 39, 11, 1) 100%);
     height: 200px;
     width: 23vw;
     padding: 100px 0 0 0;
     text-align: center;
-    margin: 0;4
-    color: #fdf5e6;
+    margin: 0;
+    4 color: #fdf5e6;
 }
 
 .cat-text-short {
-    background: rgb(228,189,44);
-background: linear-gradient(223deg, rgba(228,189,44,1) 0%, rgba(142,39,11,1) 100%);
+    background: rgb(228, 189, 44);
+    background: linear-gradient(223deg, rgba(228, 189, 44, 1) 0%, rgba(142, 39, 11, 1) 100%);
     height: 100px;
     width: 23vw;
     padding: 20px 0 0 0;
     text-align: center;
     margin: 0;
-color: #fdf5e6;
-    }
-    
+    color: #fdf5e6;
+}
+
 .cat-img {
     height: 200px;
     width: 24vw;
@@ -186,13 +186,14 @@ label {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 5fr 1fr;
         grid-template-areas:
-        "#form-name" "#form-email" "#form-comment" "#form-concern" "#form-send";
+            ".form-name"  ".form-email" ".form-comment" ".form-concern" ".form-send";
         padding-left: 15px;
     }
 
-    .cat-img, .cat-text {
+    .cat-img,
+    .cat-text {
         width: 45vw;
         margin: 0;
         border: 0;
-     }
+    }
 }
