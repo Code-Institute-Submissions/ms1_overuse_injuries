@@ -1,4 +1,4 @@
-
+![alt text](assets/images/logo2.png)
 
 # Preventing overuse injuries during growth spurt
 
@@ -17,6 +17,10 @@ Provided on the index page are summary of the issues raised here and links for c
 This web site is created using HTML5 and CSS3.
 
 Footer with disclaimer that disappear when screen size is smaller to avoid too much information in the footer area.
+
+Wireframe:
+
+(wireframe/ms1_wireframe.jpg)
 
 ## Existing Features
 * Nav bar which transforms to a humberger menu for smaller devices
