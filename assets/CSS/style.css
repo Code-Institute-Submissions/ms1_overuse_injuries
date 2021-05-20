@@ -6,8 +6,20 @@
     --bg-color: #444444;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
 nav {
     box-shadow: 0 5px 5px 0 rgba(41, 7, 236, 0.2);
+}
+
+nav a:hover {
+    font-size: 110%;
+    border-bottom: dotted red;
 }
 
 body {
@@ -212,42 +224,45 @@ label {
     text-shadow: 2px 2px #555;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .fb-grid-container {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 5fr 1fr;
-        grid-template-areas:
-            "form-name" "form-email" "form-comment""form-concern""form-send";
         padding-left: 15px;
-
-        /* aligning form elements with grid */
-        #form-name {
-            grid-row: 1/2;
-          }
-
-        #form-email {
-            grid-row: 2/3;
-        }
-
-        #form-concern {
-            grid-row: 3/4;
-        }
-
-        #form-comment {
-            grid-row: 4/5;
-                 }
-
-        #form-send {
-            grid-row: 5/6;
-        }
     }
 
+    /* aligning form elements with grid */
+    #form-name {
+        grid-row: 1/2;
+        grid-column: 1/2
+    }
 
+    #form-email {
+        grid-row: 2/3;
+        grid-column: 1/2
+    }
 
+    #form-concern {
+        grid-row: 3/4;
+        grid-column: 1/2
+    }
+
+    #form-comment {
+        grid-row: 4/5;
+        grid-column: 1/2
+    }
+
+    #form-send {
+        grid-row: 5/6;
+        grid-column: 1/2
+    }
+
+    /*category-images*/
     .cat-img,
     .cat-text {
         width: 45vw;
         margin: 0;
         border: 0;
     }
+
 }
