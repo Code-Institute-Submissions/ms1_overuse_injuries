@@ -167,10 +167,18 @@ select {
 }
 
 label {
-    width: 120px;
+    width: 110px;
 }
 
 /* Feedback form */
+
+input,
+textarea,
+select {
+    border: 2px solid #4a4a4a;
+    border-radius: 2%;
+}
+
 
 .fb-grid-container {
     display: grid;
@@ -213,7 +221,7 @@ label {
     font-weight: bold;
     font-family: sans-serif;
     text-decoration: none;
-    display: block;
+    /*display: flex;*/
     text-align: center;
     padding: 0 0 5px;
     margin-top: 0;
@@ -222,6 +230,7 @@ label {
     border-radius: 5px;
     box-shadow: 2px 2px 2px #555;
     text-shadow: 2px 2px #555;
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -234,35 +243,36 @@ label {
     /* aligning form elements with grid */
     #form-name {
         grid-row: 1/2;
-        grid-column: 1/2
+        grid-column: 1/2;
     }
 
     #form-email {
         grid-row: 2/3;
-        grid-column: 1/2
+        grid-column: 1/2;
     }
 
     #form-concern {
         grid-row: 3/4;
-        grid-column: 1/2
+        grid-column: 1/2;
     }
 
     #form-comment {
         grid-row: 4/5;
-        grid-column: 1/2
+        grid-column: 1/2;
     }
 
     #form-send {
         grid-row: 5/6;
-        grid-column: 1/2
+        grid-column: 1/2;
+        justify-self: center;
     }
 
-    /*category-images*/
+    /* category-images */
     .cat-img,
-    .cat-text {
-        width: 45vw;
-        margin: 0;
-        border: 0;
+    .cat-text,
+    .cat-img-short,
+    .cat-text-short {
+        width: 46vw;
     }
 
 }
