@@ -17,15 +17,20 @@ Provided on the index page are summary of the issues raised here and links for c
 This web site is created using HTML5 and CSS3.
 
 Landing page has a summary of the issue raised in this web page and includes large links with related photos beside for common injury category link to easily navigate to the area that a user want to find out more.
-
-![Ladning page](readme_img/MS1_Responsice_SS.jpg{width=200px height=100px})
+<details>
+<summary>Landing Page</summary>
+<img src="readme_img/MS1_Responsice_SS.jpg" width="200" height="100">
+</details>
 
 web site include Navigation bar that minimizes as a humberger menu, footer with disclaimer that disappear when screen size is smaller to avoid too much information in the footer area.
 
 
-Initial design as Wireframe:
 
-![wireframe screen shot](wireframe/ms1_wireframe.jpg{width=200px height=100px})
+<details>
+<summary>Initial design as Wireframe:</summary>
+<img src="wireframe/ms1_wireframe.jpg" width="200" height="100">
+</details>
+
 
 
 ## Existing Features
