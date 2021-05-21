@@ -16,11 +16,17 @@ Provided on the index page are summary of the issues raised here and links for c
 
 This web site is created using HTML5 and CSS3.
 
-Footer with disclaimer that disappear when screen size is smaller to avoid too much information in the footer area.
+Landing page has a summary of the issue raised in this web page and includes large links with related photos beside for common injury category link to easily navigate to the area that a user want to find out more.
 
-Wireframe:
+![Ladning page](readme_img/MS1_Responsice_SS.jpg{width=200px height=100px})
 
-![wireframe screen shot](wireframe/ms1_wireframe.jpg)
+web site include Navigation bar that minimizes as a humberger menu, footer with disclaimer that disappear when screen size is smaller to avoid too much information in the footer area.
+
+
+Initial design as Wireframe:
+
+![wireframe screen shot](wireframe/ms1_wireframe.jpg{width=200px height=100px})
+
 
 ## Existing Features
 * Nav bar which transforms to a humberger menu for smaller devices
