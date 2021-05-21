@@ -1,4 +1,4 @@
-![alt text](assets/images/logo2.png)
+<img src="assets/images/logo2.png" width="30">
 
 # Preventing overuse injuries during growth spurt
 
@@ -17,19 +17,16 @@ Provided on the index page are summary of the issues raised here and links for c
 This web site is created using HTML5 and CSS3.
 
 Landing page has a summary of the issue raised in this web page and includes large links with related photos beside for common injury category link to easily navigate to the area that a user want to find out more.
-<details>
-<summary>Landing Page</summary>
-<img src="readme_img/MS1_Responsice_SS.jpg" width="200" height="100">
-</details>
+Landing Page
+<img src="readme_img/MS1_Responsice_SS.jpg" width="400" height="200">
+
 
 web site include Navigation bar that minimizes as a humberger menu, footer with disclaimer that disappear when screen size is smaller to avoid too much information in the footer area.
 
 
+Initial design as Wireframe:
+<img src="wireframe/ms1_wireframe.jpg" width="400" height="200">
 
-<details>
-<summary>Initial design as Wireframe:</summary>
-<img src="wireframe/ms1_wireframe.jpg" width="200" height="100">
-</details>
 
 
 
@@ -41,7 +38,7 @@ web site include Navigation bar that minimizes as a humberger menu, footer with 
 
 ## Features Left to Implement
 
-Need to complete here! ! !
+
 
 ## Technologies Used 
 Html5 and CSS3 including CSS grid and Bootstrap feature
@@ -49,4 +46,48 @@ Html5 and CSS3 including CSS grid and Bootstrap feature
 ## Testing
 I have tested this web site with W3C HTML Validator for all HTML and CSS files.
 I also tested all the pages display properly in different device sizes using Crome Developper tool and actual devices such as mobile phone and ipad.
+
+I had few issues making the site respponsive for smaller screen and get the layout presentable enough.
+
+Validator Testing - each pages has been tested
+* HTML
+  * No errors were returned when passing through the official W3C validator
+* CSS
+  * No errors were found when passing through the official (Jigsaw) validator except warning for root variable setting 
+
+
+## Deployment
+
+Following steps were taken to deploy the web site.
+1. Log in to GitHub and open ms1_overuse_injuries repository.
+2. Go to Page section in setting and change source to master 
+3. Open the published page that is diplayed in the page which is **[here](https://mwmlln.github.io/ms1_overuse_injuries/)**
+
+## Credit
+
+The information provided in this site is taken from various sites and books I have used over the years also the web sites below:
+
+Website contents
+
+*  https://www.bouldercentre.com/news/risk-injury-young-athletes
+*	https://www.childrenshospital.org/conditions-and-treatments/conditions/o/overuse-injuries
+*	https://shorelineortho.com/specialties/sports_medicine-overuse_injuries_in_children.php
+*	https://orthoinfo.aaos.org/en/diseases--conditions/overuse-injuries-in-children/
+*	https://www.thephysiocompany.com/blog/dynamic-warm-up-and-warm-down
+
+CSS code 
+
+* https://cssgradient.io/
+* https://www.youtube.com/watch?v=68O6eOGAGqA responsive css grid
+
+The icons used in the pages were taken from Font Awesome and  https://ac-illust.com/
+
+Media 
+
+The photos used in this site were obtained from pexels.com/ and ac-illust.com
+
+
+# Acknowledgements
+
+My mentor Antonija has pointed me to a right direction for all the issues I had experiencing in each mentoring session, 
 
