@@ -137,10 +137,12 @@ textarea {
 
 .img-200 {
     height: 200px;
+    width: 50vw;
 }
 
 .img-100 {
     height: 100px;
+    width: 50vw;
 }
 
 .cat-link img {
@@ -151,12 +153,6 @@ textarea {
     z-index: -1;
 }
 
-.cat-img-short {
-    height: 100px;
-    width: 24vw;
-    padding: 0;
-    margin: 0;
-}
 
 /*Feedback page */
 
@@ -174,7 +170,7 @@ textarea {
 }
 
 label {
-    width: 110px;
+    width: 120px;
 }
 
 /* Feedback form */
