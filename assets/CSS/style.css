@@ -280,7 +280,11 @@ select {
         width: 46vw;
     }
 
+   
+}
+
+@media only screen and (max-width: 900px) {
     .cat-link p {
-        font-size: medium;
+        font-size: 20px;
     }
 }
