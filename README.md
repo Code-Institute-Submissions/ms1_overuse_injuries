@@ -47,7 +47,7 @@ Html5 and CSS3 including CSS grid and Bootstrap feature
 I have tested this web site with W3C HTML Validator for all HTML and CSS files.
 I also tested all the pages display properly in different device sizes using Crome Developper tool and actual devices such as mobile phone and ipad.
 
-I had few issues making the site respponsive for smaller screen and get the layout presentable enough.
+I had few issues making the site respponsive for smaller screen and get the layout presentable, especially category links with associated photos beside it to display properly.
 
 Validator Testing - each pages has been tested
 * HTML
@@ -69,22 +69,23 @@ The information provided in this site is taken from various sites and books I ha
 
 Website contents
 
-*  https://www.bouldercentre.com/news/risk-injury-young-athletes
+* https://www.bouldercentre.com/news/risk-injury-young-athletes
 *	https://www.childrenshospital.org/conditions-and-treatments/conditions/o/overuse-injuries
 *	https://shorelineortho.com/specialties/sports_medicine-overuse_injuries_in_children.php
 *	https://orthoinfo.aaos.org/en/diseases--conditions/overuse-injuries-in-children/
 *	https://www.thephysiocompany.com/blog/dynamic-warm-up-and-warm-down
 
 CSS code 
-
+ Some of the CSS code was copied or 
 * https://cssgradient.io/
 * https://www.youtube.com/watch?v=68O6eOGAGqA responsive css grid
+* techacademy.jp
 
-The icons used in the pages were taken from Font Awesome and  https://ac-illust.com/
+The icons used in the pages were taken from Font Awesome, icooon-mono.com and  ac-illust.com.
 
 Media 
 
-The photos used in this site were obtained from pexels.com/ and ac-illust.com
+The photos used in this site were obtained from pexels.com and ac-illust.com
 
 
 # Acknowledgements
