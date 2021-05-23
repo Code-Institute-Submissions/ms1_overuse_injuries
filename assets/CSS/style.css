@@ -153,6 +153,11 @@ textarea {
     z-index: -1;
 }
 
+.cat-icon {
+    font-size: 2rem;
+    border: 1px solid var(--bg-color);
+    border-radius: 50%;
+}
 
 /*Feedback page */
 
