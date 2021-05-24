@@ -72,25 +72,23 @@
             <div class="container">
                 <div class="row">
                     <div class="col-6 offset-3 mb-3">
-                        <label for="name" class="mb-2">Name :</label>
-                        <input type="text" id="name" name="name" placeholder="Your Name" required class="focus">
+                                               <input type="text" id="name" name="name" placeholder="Your Name" required class="focus">
                     </div>
                     <div class="col-6 offset-3 mb-3">
-                        <label for="email" class="mb-2">Email :</label>
                         <input type="email" id="email" name="email" placeholder="Your Email Address" required class="focus">
                     </div>
-                    <div class="col-6 offset-3 mb-3">
-                        <label for="area" class="mb-2">Concern Area :</label>
+                    <div class="col-6 offset-3 mb-3">                     
                         <select name="area" id="area" class="focus">
+                            <option selected disabled hidden>Concern Area</option>
                             <option value="knee">Knee and Heel</option>
                             <option value="back">Back</option>
                             <option value="bones">Bones</option>
                             <option value="other">Other</option>
                         </select>
                     </div>
-                    <div class="col-6 offset-3 mb-3">
-                        <label for="age-gr" class="mb-2">Age group :</label>
+                    <div class="col-6 offset-3 mb-3">                   
                         <select name="age-gr" id="age-gr" class="focus">
+                            <option selected disabled hidden>Age group</option>
                             <option value="pre-school">Pre-school age</option>
                             <option value="primary">Primary school age</option>
                             <option value="tween">Tween</option>
@@ -100,11 +98,10 @@
                         </select>
                     </div>
                     <div class="col-6 offset-3 mb-3">
-                        <label for="comment" class="mb-3 vertical-top">Your Comments : </label>
+                        
                         <textarea name="comment" id="comment" rows="5"
                             placeholder="Type your concern or comment here" class="focus"></textarea>
-                    </div>
-                   
+                    </div>                
                     <div class="row">
                         <div class="col-6 offset-3 mb-3">
                             <input type="submit" class="btn btn-dark send-btn" value="SEND!">
