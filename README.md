@@ -48,6 +48,20 @@ Initial design as Wireframe:
 
 * Also incluided are the links to common injuries in different part of the body. Each link has a associated image beside it so a user can easily find desired link.
 
+## Commin Injuries page
+
+<img src="assets/readme_img/" width="400" height="200">
+
+This page has a same images and links for consistant appearance but shorter to leave more space for list of injuries. 
+I also include a icon for every lint title for visual recognition.
+
+## Feedback page
+
+<img src="assets/readme_img/" width="400" height="200">
+
+This page is made for a user who wishes to contact us to express their opinion or share their stories.
+The page is made it simple so that a user doesn't get hesitation making a contact.
+
 ## Features Left to Implement
 
 In the wireframe, the common injuries category links and images are lined in alternative in rows. More list of links and alternive order display is left to implement for the future.
