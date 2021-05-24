@@ -136,11 +136,15 @@ textarea {
 
 .cat-link p {
     position: absolute;
-    top: 25%;
+    top: 40%;
     left: 10%;
     font-size: 40px;
     color: #fafafa;
     letter-spacing: -1px;
+}
+
+.cat-link p:hover {
+color: var(--bg-color);
 }
 
 .img-200 {
