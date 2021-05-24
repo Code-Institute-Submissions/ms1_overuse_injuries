@@ -20,7 +20,7 @@ Landing page has a summary of the issue raised in this web page and includes lar
 
 Website Pages
 
-<img src="readme_img/MS1_Responsice_SS.jpg" width="400" height="200">
+<img src="assets/readme_img/ms1_responsive_ss.jpg" width="400" height="200">
 
 
 The web site include Navigation bar that minimizes as a humberger menu, footer with disclaimer that disappears when screen size is smaller to avoid congestion in the footer area.
@@ -39,7 +39,7 @@ Initial design as Wireframe:
 
 ## Landing Page
 
-<img src="assets/readme_img/" width="400" height="200">
+<img src="assets/readme_img/index_page.jpg" width="400">
 
 
 * Landing page has a large hero image with a message inside
@@ -50,14 +50,14 @@ Initial design as Wireframe:
 
 ## Commin Injuries page
 
-<img src="assets/readme_img/" width="400" height="200">
+<img src="assets/readme_img/Injuries_ss.jpg" width="400" height="200">
 
 This page has a same images and links for consistant appearance but shorter to leave more space for list of injuries. 
 I also include a icon for every lint title for visual recognition.
 
 ## Feedback page
 
-<img src="assets/readme_img/" width="400" height="200">
+<img src="assets/readme_img/Feedbak_ss.jpg" width="400" height="200">
 
 This page is made for a user who wishes to contact us to express their opinion or share their stories.
 The page is made it simple so that a user doesn't get hesitation making a contact.
