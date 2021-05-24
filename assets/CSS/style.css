@@ -92,7 +92,7 @@ footer span {
 }
 
 .hero-image {
-    display: relative;
+   position: relative;
     background-image: url(../images/hero-image.jpg);
     margin-bottom: 10px;
     background-repeat: no-repeat;
