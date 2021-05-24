@@ -86,17 +86,23 @@ footer span {
 
 /* Hero image */
 
-.hero-image {
+.hero-wrapper {
     height: 300px;
+    width: 100vw;
+}
+
+.hero-image {
+    display: relative;
     background-image: url(../images/hero-image.jpg);
     margin-bottom: 10px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom left;
 }
 
 .hero-text {
     position: absolute;
-    left: 2vw;
+    right: 2vw;
     width: 300px;
     height: auto;
     padding: 10px;
