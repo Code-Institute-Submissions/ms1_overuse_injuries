@@ -17,26 +17,40 @@ Provided on the index page are summary of the issues raised here and links for c
 This web site is created using HTML5 and CSS3.
 
 Landing page has a summary of the issue raised in this web page and includes large links with related photos beside for common injury category link to easily navigate to the area that a user want to find out more.
-Landing Page
+
+Website Pages
+
 <img src="readme_img/MS1_Responsice_SS.jpg" width="400" height="200">
 
 
-web site include Navigation bar that minimizes as a humberger menu, footer with disclaimer that disappear when screen size is smaller to avoid too much information in the footer area.
+The web site include Navigation bar that minimizes as a humberger menu, footer with disclaimer that disappears when screen size is smaller to avoid congestion in the footer area.
 
 
 Initial design as Wireframe:
+
 <img src="wireframe/ms1_wireframe.jpg" width="400" height="200">
 
 
-
-
 ## Existing Features
-* Nav bar which transforms to a humberger menu for smaller devices
-* Landing page that summarises the purpose of this web site and summary information 
-* Some of common injuries with associated image beside it
-* Feed back page – for who are interested to get in touch and share their stories
+* Nav bar which transforms to a humberger menu on smaller devices
+
+* List of common injuries with associated image beside it
+* Feed back page – for who are interested to get in touch and share their stories - to be used for user stories section in the future
+
+## Landing Page
+
+<img src="assets/readme_img/" width="400" height="200">
+
+
+* Landing page has a large hero image with a message inside
+
+* This page summarises the topic and the purpose of this web site 
+
+* Also incluided are the links to common injuries in different part of the body. Each link has a associated image beside it so a user can easily find desired link.
 
 ## Features Left to Implement
+
+In the wireframe, the common injuries category links and images are lined in alternative in rows. More list of links and alternive order display is left to implement for the future.
 
 
 
@@ -90,5 +104,5 @@ The photos used in this site were obtained from pexels.com and ac-illust.com
 
 # Acknowledgements
 
-My mentor Antonija has pointed me to a right direction for all the issues I had experiencing in each mentoring session, 
+ 
 
