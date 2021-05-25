@@ -5,8 +5,8 @@
 This site is created to promote awareness of common injuries among children and young adults caused by overuse of muscles during their growth spurt and suggest prevention measures that they can take in order to avoid long term health effect.
 
 The aim for the site is to provide the general information and knowledge for parents, trainers, teachers and young athletes themselves about the harm of doing too much high impact sport trainings while they are still growing so that they can takes all the measures to prevent any unnecessary injuries.
-This site only summarises the tpic, common injuries and rough ideas for prevention.
-There is much more detailed information widely available on the web and this site's aim here is to get people aware of the topicof this common problems.
+This site only summarises the topic, common injuries and rough ideas for prevention.
+There is much more detailed information widely available on the web and this site's aim here is to get people aware of the topic of these common problems.
 
 <img src="assets/readme_img/ms1_responsive_ss.jpg" width="400" height="200">
 
@@ -20,9 +20,9 @@ This web site is created using HTML5 and CSS3, and some bootstrap features inclu
   
    <img src="assets/readme_img/navbar_ss.jpg" height="150">
 
-  * The full responsive navigation bar includes links to the Logo, Home, Common Injries and Feedback page and is identical in each page to allow for easy navigation.
+  * The full responsive navigation bar includes links to the Logo, Home, Common Injuries and Feedback page and is identical in each page to allow for easy navigation.
 
-  * This navigation bar that transforms as a humberger menu for smaller devices.
+  * This navigation bar that transforms as a hamburger menu for smaller devices.
 
 * Footer
 
@@ -30,9 +30,9 @@ This web site is created using HTML5 and CSS3, and some bootstrap features inclu
 
   * Footer has a same color scheme as a navigation bar to keep the web site consistency.
   
-  * It also provides Logo that is linked to the landing page and socail madia links which will open in a new window.
+  * It also provides logo that is linked to the landing page and social media links which will open in a new window.
 
-  * It also has a disclailer line that disappears with the screen size is smaller to avoid conggestion.
+  * It also has a disclailer line that disappears with the screen size is smaller to avoid congestion.
 
 * Landing Page
 
@@ -40,7 +40,7 @@ This web site is created using HTML5 and CSS3, and some bootstrap features inclu
 
   * This page summarises the topic and the purpose of this web site 
   
-  * The landing page has a titile followed by Hero image with title inside on the top of the page.
+  * The landing page has a title followed by Hero image with title inside on the top of the page.
   
   * Summary of the topic follows the Hero image 
   to explain what is web site is about.
@@ -68,7 +68,7 @@ Initial design as Wireframe:
 
 <img src="wireframe/ms1_wireframe.jpg" width="400" height="200">
 
-The initial design for the web site was to have the large link button and associated images in altenetive display in other rows, however the implementaion was yet to made.
+The initial design for the web site was to have the large link button and associated images in alternative display in other rows, however the implementation is yet to made.
 
 
 
@@ -82,7 +82,7 @@ Html5 and CSS3 including CSS grid and Bootstrap feature
   * No errors were found when passing through the official [(Jigsaw) validator]("https://jigsaw.w3.org/css-validator/")
 
 
-Test was carried out on different device sizes using Crome Developper tool and actual devices such as mobile phone and ipad.
+Test was carried out on different device sizes using Crome Developer tool and actual devices such as mobile phone and iPad.
 
 
 
@@ -93,9 +93,9 @@ Test was carried out on different device sizes using Crome Developper tool and a
 ## Deployment
 
 Following steps were taken to deploy the web site.
-1. Log in to GitHub and naviagte to  ms1_overuse_injuries repository.
+1. Log in to GitHub and navigate to  ms1_overuse_injuries repository.
 2. Go to Page section in setting and change dropdown menu from source to master 
-3. Open the published page that is diplayed in the page which is __[here](https://mwmlln.github.io/ms1_overuse_injuries/)__
+3. Open the published page that is deployed in the page which is __[here](https://mwmlln.github.io/ms1_overuse_injuries/)__
 
 ## Credit
 
