@@ -12,7 +12,6 @@
     border: none;
 }
 
-
 nav {
     box-shadow: 0 5px 5px 0 rgba(41, 7, 236, 0.2);
 }
@@ -29,7 +28,8 @@ body {
 }
 
 h1,
-h2, h3 {
+h2,
+h3 {
     font-family: var(--heading-font-family);
 }
 
@@ -53,7 +53,7 @@ a {
 /* footer */
 
 footer {
-    background-color: 	#212529;
+    background-color: #212529;
     height: 50px;
     display: flex;
     justify-content: space-between;
@@ -92,7 +92,7 @@ footer span {
 }
 
 .hero-image {
-   position: relative;
+    position: relative;
     background-image: url("../images/hero-image.jpg");
     margin-bottom: 10px;
     background-repeat: no-repeat;
@@ -115,10 +115,10 @@ footer span {
 }
 
 
-.text-bg {
+.main-text {
     color: #444444;
     padding: 30px;
-  }
+}
 
 /* Category section */
 
@@ -139,7 +139,7 @@ footer span {
 }
 
 .cat-link p:hover {
-color: var(--bg-color);
+    color: var(--bg-color);
 }
 
 .img-200 {
@@ -168,14 +168,12 @@ color: var(--bg-color);
 /*Feedback page */
 
 .feedback_img {
-    background-image: url("../images/feedback_img.jpg") ;
+    background-image: url("../images/feedback_img.jpg");
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
 }
-
-
 
 /* Feedback form */
 
@@ -184,20 +182,19 @@ textarea,
 select {
     width: 100%;
     border: 0;
-  outline: 0;
-   border-bottom:1px solid var(--bg-color)
+    outline: 0;
+    border-bottom: 1px solid var(--bg-color)
 }
 
 .send-btn {
     width: 100%;
 }
 
-
 .focus:focus {
     background: papayawhip;
 }
 
-
+/* Media queries */
 
 @media only screen and (max-width: 600px) {
 
@@ -226,8 +223,8 @@ select {
     }
 
     input,
-select, textarea {
-    width: 90%;
-   }
+    select,
+    textarea {
+        width: 90%;
+    }
 }
-
