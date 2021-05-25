@@ -4,23 +4,60 @@
 
 This site is created to promote awareness of common injuries among children and young adults caused by overuse of muscles during their growth spurt and suggest prevention measures that they can take in order to avoid long term health effect.
 
-## UX
-The aim for this site is to provide information and knowledge for parents, trainers, teachers and young athletes themselves about the harm of doing too much high impact sport trainings while they are still growing so that they can takes all the measures to prevent any unnecessary injuries.
-This site only summarises common injuries and rough ideas for prevention.
-There is much more detailed information available on the web and my aim here is to get people interested in the topic and get them aware of the common problems.
+The aim for the site is to provide the general information and knowledge for parents, trainers, teachers and young athletes themselves about the harm of doing too much high impact sport trainings while they are still growing so that they can takes all the measures to prevent any unnecessary injuries.
+This site only summarises the tpic, common injuries and rough ideas for prevention.
+There is much more detailed information widely available on the web and this site's aim here is to get people aware of the topicof this common problems.
 
-The web site's goal is to provide summery of the topic by giving a user an opportunity to glace the information easily.
-Provided on the index page are summary of the issues raised here and links for common injury list also navigation bar provide contact page for any users who wishes to share their concern or stories.
+<img src="assets/readme_img/ms1_responsive_ss.jpg" width="400" height="200">
 
 ## Features
 
-This web site is created using HTML5 and CSS3.
+This web site is created using HTML5 and CSS3, and some bootstrap features include JavaScript.
 
-Landing page has a summary of the issue raised in this web page and includes large links with related photos beside for common injury category link to easily navigate to the area that a user want to find out more.
+### Existing Features
+
+* Navigation Bar
+
+  * The full responsive navigation bar includes links to the Logo, Home, Common Injries and Feedback page and is identical in each page to allow for easy navigation.
+
+  * This navigation bar helps a user to understand which page they're looking at and easily navigate within the site. 
+
+* Footer
+
+  * Footer has a same color scheme as a navigation bar to keep the web site consistency.
+  
+  * It also provides Logo that is linked to the landing page and socail madia links which will open in a new window.
+
+  * It also has a discla
+
+* Landing Page
+
+  <img src="assets/readme_img/index_page.jpg" width="400">
+
+  * The landing page has a titile followed by Hero iamge with message inside on the top of the page.
+  
+  * Summary of the topic follows the Hero image 
+  to explain what is web site is about.
+  
+  * This page also provides large buttons with related photos beside them that links each section in common injury page.
+
+Landing page has a large hero image with a message inside
+
+ 
+
+
+
+
+* 
+
+* This page summarises the topic and the purpose of this web site 
+
+* Also incluided are the links to common injuries in different part of the body. Each link has a associated image beside it so a user can easily find desired link.
+
 
 Website Pages
 
-<img src="assets/readme_img/ms1_responsive_ss.jpg" width="400" height="200">
+
 
 
 The web site include Navigation bar that minimizes as a humberger menu, footer with disclaimer that disappears when screen size is smaller to avoid congestion in the footer area.
@@ -37,16 +74,7 @@ Initial design as Wireframe:
 * List of common injuries with associated image beside it
 * Feed back page – for who are interested to get in touch and share their stories - to be used for user stories section in the future
 
-## Landing Page
 
-<img src="assets/readme_img/index_page.jpg" width="400">
-
-
-* Landing page has a large hero image with a message inside
-
-* This page summarises the topic and the purpose of this web site 
-
-* Also incluided are the links to common injuries in different part of the body. Each link has a associated image beside it so a user can easily find desired link.
 
 ## Commin Injuries page
 
@@ -57,7 +85,7 @@ I also include a icon for every lint title for visual recognition.
 
 ## Feedback page
 
-<img src="assets/readme_img/Feedbak_ss.jpg" width="400" height="200">
+<img src="assets/readme_img/feedback_ss.jpg" width="400" height="200">
 
 This page is made for a user who wishes to contact us to express their opinion or share their stories.
 The page is made it simple so that a user doesn't get hesitation making a contact.
