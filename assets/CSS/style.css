@@ -118,6 +118,10 @@ label {
     width: 120px;
 }
 
+.text-bg {
+    color: #444444;
+    padding: 30px;
+  }
 
 /* Category section */
 
