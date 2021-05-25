@@ -93,7 +93,7 @@ footer span {
 
 .hero-image {
    position: relative;
-    background-image: url(../images/hero-image.jpg);
+    background-image: url("../images/hero-image.jpg");
     margin-bottom: 10px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,9 +114,6 @@ footer span {
     text-shadow: 1px 1px rgb(41, 7, 236);
 }
 
-label {
-    width: 120px;
-}
 
 .text-bg {
     color: #444444;
@@ -124,7 +121,6 @@ label {
   }
 
 /* Category section */
-
 
 /* category link text code partly copied from techacademy.jp */
 
@@ -165,7 +161,6 @@ color: var(--bg-color);
 }
 
 .cat-icon {
-    font-size: 2rem;
     border: 1px solid var(--bg-color);
     border-radius: 50%;
 }
@@ -173,10 +168,11 @@ color: var(--bg-color);
 /*Feedback page */
 
 .feedback_img {
-    background-image: url(../images/feedback_img.jpg);
+    background-image: url("../images/feedback_img.jpg") ;
     height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position-y: center;
 }
 
 
@@ -203,20 +199,15 @@ select {
 
 
 
-
-.fb-grid-container {
-    display: grid;
-    grid-template-columns: 2fr 2fr 1fr 2fr 2fr;
-    grid-template-rows: 1fr 1fr 3fr 1fr;
-}
-
-
-
 @media only screen and (max-width: 600px) {
 
     .hero-text {
         width: 300px;
         margin: 20px auto;
+    }
+
+    .feedback_img {
+        background-position-x: center;
     }
 }
 
