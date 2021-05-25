@@ -17,134 +17,111 @@ This web site is created using HTML5 and CSS3, and some bootstrap features inclu
 ### Existing Features
 
 * Navigation Bar
+  
+   <img src="assets/readme_img/navbar_ss.jpg" height="150">
 
   * The full responsive navigation bar includes links to the Logo, Home, Common Injries and Feedback page and is identical in each page to allow for easy navigation.
 
-  * This navigation bar helps a user to understand which page they're looking at and easily navigate within the site. 
+  * This navigation bar that transforms as a humberger menu for smaller devices.
 
 * Footer
+
+  <img src="assets/readme_img/footer_ss.jpg" width="250">
 
   * Footer has a same color scheme as a navigation bar to keep the web site consistency.
   
   * It also provides Logo that is linked to the landing page and socail madia links which will open in a new window.
 
-  * It also has a discla
+  * It also has a disclailer line that disappears with the screen size is smaller to avoid conggestion.
 
 * Landing Page
 
-  <img src="assets/readme_img/index_page.jpg" width="400">
+  <img src="assets/readme_img/index_page.jpg" width="300">
 
-  * The landing page has a titile followed by Hero iamge with message inside on the top of the page.
+  * This page summarises the topic and the purpose of this web site 
+  
+  * The landing page has a titile followed by Hero image with title inside on the top of the page.
   
   * Summary of the topic follows the Hero image 
   to explain what is web site is about.
   
   * This page also provides large buttons with related photos beside them that links each section in common injury page.
 
-Landing page has a large hero image with a message inside
 
- 
+* Common injuries Page
 
+  <img src="assets/readme_img/injuries_ss.jpg" width="300">
+  
+  * Top of the page has the links to each injuries section in the page. Each link has a associated image beside it to match the landing page to have consistency but the shorter height to give more space to the paragraph below.
 
+* Feedback page
+  <img src="assets/readme_img/feedback_ss.jpg" width="300">
 
+  * This page is made for a user who wishes to contact us to express their opinion or share their stories.
+The page is made it simple so that a user doesn't get hesitation making a contact.
 
-* 
+  *  By the feedback from the mentor, this feedback page design was changed to a minimal looks for easier and clearer entry.
 
-* This page summarises the topic and the purpose of this web site 
-
-* Also incluided are the links to common injuries in different part of the body. Each link has a associated image beside it so a user can easily find desired link.
-
-
-Website Pages
-
-
-
-
-The web site include Navigation bar that minimizes as a humberger menu, footer with disclaimer that disappears when screen size is smaller to avoid congestion in the footer area.
-
+## Features Left to Implement
 
 Initial design as Wireframe:
 
 <img src="wireframe/ms1_wireframe.jpg" width="400" height="200">
 
-
-## Existing Features
-* Nav bar which transforms to a humberger menu on smaller devices
-
-* List of common injuries with associated image beside it
-* Feed back page – for who are interested to get in touch and share their stories - to be used for user stories section in the future
-
-
-
-## Commin Injuries page
-
-<img src="assets/readme_img/Injuries_ss.jpg" width="400" height="200">
-
-This page has a same images and links for consistant appearance but shorter to leave more space for list of injuries. 
-I also include a icon for every lint title for visual recognition.
-
-## Feedback page
-
-<img src="assets/readme_img/feedback_ss.jpg" width="400" height="200">
-
-This page is made for a user who wishes to contact us to express their opinion or share their stories.
-The page is made it simple so that a user doesn't get hesitation making a contact.
-
-## Features Left to Implement
-
-In the wireframe, the common injuries category links and images are lined in alternative in rows. More list of links and alternive order display is left to implement for the future.
+The initial design for the web site was to have the large link button and associated images in altenetive display in other rows, however the implementaion was yet to made.
 
 
 
 ## Technologies Used 
 Html5 and CSS3 including CSS grid and Bootstrap feature
 
-## Testing
-I have tested this web site with W3C HTML Validator for all HTML and CSS files.
-I also tested all the pages display properly in different device sizes using Crome Developper tool and actual devices such as mobile phone and ipad.
+## Validator Testing
 
-I had few issues making the site respponsive for smaller screen and get the layout presentable, especially category links with associated photos beside it to display properly.
+  * No errors were returned when passing through the official [W3C validator]("https://validator.w3.org/")
 
-Validator Testing - each pages has been tested
-* HTML
-  * No errors were returned when passing through the official W3C validator
-* CSS
-  * No errors were found when passing through the official (Jigsaw) validator except warning for root variable setting 
+  * No errors were found when passing through the official [(Jigsaw) validator]("https://jigsaw.w3.org/css-validator/")
 
+
+Test was carried out on different device sizes using Crome Developper tool and actual devices such as mobile phone and ipad.
+
+
+
+## Unfixed Bugs
+
+---------NEED TO FILL OUT------------
 
 ## Deployment
 
 Following steps were taken to deploy the web site.
-1. Log in to GitHub and open ms1_overuse_injuries repository.
-2. Go to Page section in setting and change source to master 
-3. Open the published page that is diplayed in the page which is **[here](https://mwmlln.github.io/ms1_overuse_injuries/)**
+1. Log in to GitHub and naviagte to  ms1_overuse_injuries repository.
+2. Go to Page section in setting and change dropdown menu from source to master 
+3. Open the published page that is diplayed in the page which is __[here](https://mwmlln.github.io/ms1_overuse_injuries/)__
 
 ## Credit
 
 The information provided in this site is taken from various sites and books I have used over the years also the web sites below:
 
-Website contents
+* Website contents
 
-* https://www.bouldercentre.com/news/risk-injury-young-athletes
-*	https://www.childrenshospital.org/conditions-and-treatments/conditions/o/overuse-injuries
-*	https://shorelineortho.com/specialties/sports_medicine-overuse_injuries_in_children.php
-*	https://orthoinfo.aaos.org/en/diseases--conditions/overuse-injuries-in-children/
-*	https://www.thephysiocompany.com/blog/dynamic-warm-up-and-warm-down
+  * https://www.bouldercentre.com/news/risk-injury-young-athletes
+  *	https://www.childrenshospital.org/conditions-and-treatments/conditions/o/overuse-injuries
+  *	https://shorelineortho.com/specialties/sports_medicine-overuse_injuries_in_children.php
+  *	https://orthoinfo.aaos.org/en/diseases--conditions/overuse-injuries-in-children/
+  *	https://www.thephysiocompany.com/blog/dynamic-warm-up-and-warm-down
 
-CSS code 
- Some of the CSS code was copied or 
-* https://cssgradient.io/
-* https://www.youtube.com/watch?v=68O6eOGAGqA responsive css grid
-* techacademy.jp
+* CSS code 
+  Some of the CSS code was copied or 
+  * https://cssgradient.io/
+  * http://techacademy.jp
 
-The icons used in the pages were taken from Font Awesome, icooon-mono.com and  ac-illust.com.
+ 
 
-Media 
+* Media 
 
-The photos used in this site were obtained from pexels.com and ac-illust.com
+  * The photos used in this site were obtained from pexels.com and ac-illust.com
+  * Icons used in the pages were taken from Font Awesome, icooon-mono.com and ac-illust.com.
 
 
-# Acknowledgements
 
  
 
