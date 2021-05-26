@@ -28,7 +28,7 @@ There is much more detailed information widely available on the web and this sit
   
   * It also provides logo that is linked to the landing page and social media links which will open in a new tab.
 
-  * The footer has a disclaimer line which disappears with the screen size is smaller to avoid congestion.
+  * The footer has a disclaimer line which disappears on smaller screen size to avoid congestion.
 
 * The Landing Page
 
@@ -38,30 +38,28 @@ There is much more detailed information widely available on the web and this sit
   
   * The landing page has a title followed by Hero image with overlay text.
   
-  * Summary of the topic follows the Hero image 
-  to provide general idea about the subject.
+  * Summary of the topic follows the Hero image to provide general idea about the subject.
   
-  * The page also provides large buttons with related photos beside them that links each section in common injury page.
+  * Bottom of the page also are large button links with associated images beside them to  sections in common injuries' page.
 
 
 * Common injuries Page
 
   <img src="assets/readme_img/injuries_ss.jpg" width="300">
   
-  * Top of the page has the links to common injuries categorised by different parts of the body which are listed below within the page. Each link has an associated image beside it for more visual approach.
+  * Top of the page has the large button links to each category below within the page. Each link has an associated image beside it for more visual approach.
   
   * Links are identical to the ones in the index page except they have the shorter height to give more space to the paragraphs below.
 
-  * Each of the heading list has a large icon to represent the category to allow the user to see exactly which part the list would be applicable to.
+  * Each of the heading list has a large icon before the title.
 
 * Feedback page
+
   <img src="assets/readme_img/feedback_ss.jpg" width="300">
 
   * This page allows a user to contact us to express their opinion or share their stories.
 
   * The feedback page layout was changed from the wireframe as there was a suggestion to keep the page simple and clear for the purpose.
-
-  *  This page allows the user to communicate with us by filling the information and click the large submit button.
 
 ## Features Left to Implement
 
@@ -98,7 +96,7 @@ Social network icons are slightly pushed to the bottom of the footer in the smal
 Following steps were taken to deploy the web site.
 1. Log in to GitHub and navigate to  ms1_overuse_injuries repository.
 2. Go to Page section in setting and change dropdown menu from source to master 
-3. Open the published page that is deployed in the page which is __[here](https://mwmlln.github.io/ms1_overuse_injuries/)__
+3. After the diployment was completed the site address is deployed in the page which is __[here](https://mwmlln.github.io/ms1_overuse_injuries/)__
 
 ## Credit
 
