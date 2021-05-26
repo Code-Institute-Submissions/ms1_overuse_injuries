@@ -28,7 +28,7 @@ There is much more detailed information widely available on the web and this sit
   
   * It also provides logo that is linked to the landing page and social media links which will open in a new tab.
 
-  * The footer has a disclailer line which disappears with the screen size is smaller to avoid congestion.
+  * The footer has a disclaimer line which disappears with the screen size is smaller to avoid congestion.
 
 * The Landing Page
 
@@ -48,7 +48,7 @@ There is much more detailed information widely available on the web and this sit
 
   <img src="assets/readme_img/injuries_ss.jpg" width="300">
   
-  * Top of the page has the links to common injuries categorised by different parts of the body which are listed below within the page. Each link has a associated image beside it for more visual approach.
+  * Top of the page has the links to common injuries categorised by different parts of the body which are listed below within the page. Each link has an associated image beside it for more visual approach.
   
   * Links are identical to the ones in the index page except they have the shorter height to give more space to the paragraphs below.
 
@@ -59,9 +59,9 @@ There is much more detailed information widely available on the web and this sit
 
   * This page allows a user to contact us to express their opinion or share their stories.
 
-  * The feedback page layout was changed from the wireframe as there was a suggenstion to keep the page simple and clear for the purpose.
+  * The feedback page layout was changed from the wireframe as there was a suggestion to keep the page simple and clear for the purpose.
 
-  *  This page allows the user to communicate with us by filling the infomataion and click the large submit button.
+  *  This page allows the user to communicate with us by filling the information and click the large submit button.
 
 ## Features Left to Implement
 
@@ -69,7 +69,7 @@ Initial design as Wireframe:
 
 <img src="wireframe/ms1_wireframe.jpg" width="400" height="200">
 
-The initial design for the web site was to have the large link buttons and associated images in alternative display in every other rows, however the implementation is yet to made.
+The initial design for the web site was to have the large link buttons and associated images in alternative display in every other row, however the implementation is yet to made.
 
 
 ## Technologies Used 
@@ -91,7 +91,7 @@ The initial design for the web site was to have the large link buttons and assoc
 
 ## Unfixed Bugs
 
-Socail network icons are slightly pushed to the bottom of the footer in the smaller device and needs adjusting but they have not been adjusted due to limited time available at this moment.
+Social network icons are slightly pushed to the bottom of the footer in the smaller device and needs adjusting but they have not been adjusted due to limited time available at this moment.
 
 ## Deployment
 
