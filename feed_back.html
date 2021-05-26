@@ -1,154 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Awareness of overuse sports injuries among children during growth spurt" />
+        <meta name="keywords" content="sports injuries, overuse, growth spurt, kids injuries" />
+        <title>Overuse injuries during growth spurt</title>
+        <link rel="shortcut icon" href="assets/images/logo2.png" type="image/x-icon" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/CSS/style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Awareness of overuse sports injuries among children during growth spurt">
-    <meta name="keywords" content="sports injuries, overuse, growth spurt, kids injuries">
-    <title>Overuse injuries during growth spurt</title>
-    <link rel="shortcut icon" href="assets/images/logo2.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
-    </script>
-    <link rel="stylesheet" href="assets/CSS/style.css">
-</head>
-
-<body>
-
-    <header>
-        <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
-            <a href="index.html" class="navbar-brand">
-                <img src="assets/images/logo2.png" alt="Logo link to Home" class="logo-img">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li>
-                        <a href="index.html" class="nav-link">HOME</a> </li>
-                    <li>
-                        <a href="common_injuries.html" class="nav-link">Common Injuries</a>
-                    </li>
-                    <li>
-                        <a href="feed_back.html" class="nav-link active">Feed Back</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-
-    <section>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 feedback_img">
-                    <div class="hero-text center-text">
-                        <h2><i class="fas fa-envelope"></i> Get in Touch <br>
-                            Share your story!</h2>
-                    </div>
+    <body>
+        <header>
+            <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+                <a href="index.html" class="navbar-brand">
+                    <img src="assets/images/logo2.png" alt="Logo link to Home" class="logo-img" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li>
+                            <a href="index.html" class="nav-link">HOME</a>
+                        </li>
+                        <li>
+                            <a href="common_injuries.html" class="nav-link">Common Injuries</a>
+                        </li>
+                        <li>
+                            <a href="feed_back.html" class="nav-link active">Feed Back</a>
+                        </li>
+                    </ul>
                 </div>
-            </div>
-        </div>
-    </section>
+            </nav>
+        </header>
 
-    <section>
-        <h1 class="center-text mt-5 mb-3"><i class="fas fa-envelope"></i>Feedback form</h1>
-        <h3 class="center-text">Any concerns or want to share your story ? </h3>
-        <h3 class="center-text mb-5">Please get in touch!</h3>
-
-        <!--Bootstrap form-->
-
-        <form action="https://formdump.codeinstitute.net/" method="POST">
-            <div class="container">
+        <section>
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-6 offset-3 mb-3">
-                        <input type="text" id="name" name="name" placeholder="Your Name" required class="focus">
-                    </div>
-
-                    <div class="col-6 offset-3 mb-3">
-                        <input type="email" id="email" name="email" placeholder="Email Address" required
-                            class="focus">
-                    </div>
-
-                    <div class="col-6 offset-3 mb-3">
-                        <select name="area" id="area" class="focus">
-                            <option selected disabled hidden>Concern Area</option>
-                            <option value="knee">Knee and Heel</option>
-                            <option value="back">Back</option>
-                            <option value="bones">Bones</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-
-                    <div class="col-6 offset-3 mb-3">
-                        <select name="age-gr" id="age-gr" class="focus">
-                            <option selected disabled hidden>Age group</option>
-                            <option value="pre-school">Pre-school age</option>
-                            <option value="primary">Primary school age</option>
-                            <option value="tween">Tween</option>
-                            <option value="teenager">Teenager</option>
-                            <option value="young-adult">Young adult</option>
-                            <option value="other">Other</option>
-                        </select>
-                    </div>
-
-                    <div class="col-6 offset-3 mb-3">
-                        <textarea name="comment" id="comment" rows="5" placeholder="Type your concern or comment here"
-                            class="focus"></textarea>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-6 offset-3 mb-3">
-                            <input type="submit" class="btn btn-dark send-btn" value="SEND!">
+                    <div class="col-12 feedback_img">
+                        <div class="hero-text center-text">
+                            <h2>
+                                <i class="fas fa-envelope"></i> Get in Touch <br />
+                                Share your story!
+                            </h2>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
 
-        </form>
+        <section>
+            <h1 class="center-text mt-5 mb-3"><i class="fas fa-envelope"></i>Feedback form</h1>
+            <h3 class="center-text">Any concerns or want to share your story ?</h3>
+            <h3 class="center-text mb-5">Please get in touch!</h3>
 
-    </section>
+            <!--Bootstrap form-->
 
-    <footer>
-        <div>
-            <a href="index.html">
-                <img src="assets/images/logo2.png" alt="Logo link to Home" class="logo-img"></a>
-        </div>
-        <div class="d-none d-md-block disclaimer mt-3">
-            <span><i class="fas fa-exclamation-circle"></i>INFORMATIONAL PURPOSES ONLY</span>
-        </div>
-        <div>
-            <ul class="sns">
-                <li><a href="http://facebook.com" target="_blank" rel="noopener" aria-label="Open our Facebook page in a new tab"><i
-                            class="fab fa-facebook-square"></i></a></li>
-                <li><a href="http://instgram.com" target="_blank" rel="noopener" aria-label="Open our Instgram page in a new tab"><i
-                            class="fab fa-instagram-square"></i></a>
-                <li><a href="http://twitter.com" target="_blank" rel="noopener" aria-label="Open our Twitter page in a new tab"><i
-                            class="fab fa-twitter-square"></i></a>
-            </ul>
-        </div>
-    </footer>
+            <form action="https://formdump.codeinstitute.net/" method="POST">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 offset-3 mb-3">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required class="focus" />
+                        </div>
 
-    <!-- font awsome script -->
-    <script src="https://kit.fontawesome.com/12c8ab0e8b.js" crossorigin="anonymous"></script>
+                        <div class="col-6 offset-3 mb-3">
+                            <input type="email" id="email" name="email" placeholder="Email Address" required class="focus" />
+                        </div>
 
-    <!--bootstrap CDN-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-    </script>
+                        <div class="col-6 offset-3 mb-3">
+                            <select name="area" id="area" class="focus">
+                                <option selected disabled hidden>Concern Area</option>
+                                <option value="knee">Knee and Heel</option>
+                                <option value="back">Back</option>
+                                <option value="bones">Bones</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
 
-</body>
+                        <div class="col-6 offset-3 mb-3">
+                            <select name="age-gr" id="age-gr" class="focus">
+                                <option selected disabled hidden>Age group</option>
+                                <option value="pre-school">Pre-school age</option>
+                                <option value="primary">Primary school age</option>
+                                <option value="tween">Tween</option>
+                                <option value="teenager">Teenager</option>
+                                <option value="young-adult">Young adult</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
 
+                        <div class="col-6 offset-3 mb-3">
+                            <textarea name="comment" id="comment" rows="5" placeholder="Type your concern or comment here" class="focus"></textarea>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-6 offset-3 mb-3">
+                                <input type="submit" class="btn btn-dark send-btn" value="SEND!" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <div>
+                <a href="index.html"> <img src="assets/images/logo2.png" alt="Logo link to Home" class="logo-img" /></a>
+            </div>
+            <div class="d-none d-md-block disclaimer mt-3">
+                <span><i class="fas fa-exclamation-circle"></i>INFORMATIONAL PURPOSES ONLY</span>
+            </div>
+            <div>
+                <ul class="sns">
+                    <li>
+                        <a href="http://facebook.com" target="_blank" rel="noopener" aria-label="Open our Facebook page in a new tab"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://instgram.com" target="_blank" rel="noopener" aria-label="Open our Instgram page in a new tab"><i class="fab fa-instagram-square"></i></a>
+                    </li>
+
+                    <li>
+                        <a href="http://twitter.com" target="_blank" rel="noopener" aria-label="Open our Twitter page in a new tab"><i class="fab fa-twitter-square"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <!-- font awsome script -->
+        <script src="https://kit.fontawesome.com/12c8ab0e8b.js" crossorigin="anonymous"></script>
+
+        <!--bootstrap CDN-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
 </html>

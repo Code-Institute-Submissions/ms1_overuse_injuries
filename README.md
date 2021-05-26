@@ -80,9 +80,9 @@ The initial design for the web site was to have the large link buttons and assoc
 
   * Validator Testing
 
-    * No errors were returned when passing through the official [W3C validator]("https://validator.w3.org/")
+    * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmwmlln.github.io%2Fms1_overuse_injuries%2F)
 
-    * No errors were found when passing through the official [(Jigsaw) validator]("https://jigsaw.w3.org/css-validator/")
+    * No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmwmlln.github.io%2Fms1_overuse_injuries%2Fassets%2FCSS%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
 * Test was carried out on different device sizes using Crome Developer tool and actual devices such as mobile phone and iPad.
