@@ -1,5 +1,3 @@
-<img src="assets/images/logo2.png" width="30">
-
 # Preventing overuse injuries during growth spurt
 
 This site is created to promote awareness of common injuries among children and young adults caused by overuse of muscles during their growth spurt and suggest prevention measures that they can take in order to avoid long term health effect.
@@ -12,8 +10,6 @@ There is much more detailed information widely available on the web and this sit
 
 ## Features
 
-This web site is created using HTML5 and CSS3, and some bootstrap features include JavaScript.
-
 ### Existing Features
 
 * Navigation Bar
@@ -22,45 +18,50 @@ This web site is created using HTML5 and CSS3, and some bootstrap features inclu
 
   * The full responsive navigation bar includes links to the Logo, Home, Common Injuries and Feedback page and is identical in each page to allow for easy navigation.
 
-  * This navigation bar that transforms as a hamburger menu for smaller devices.
+  * This navigation bar transforms as a hamburger menu for smaller devices.
 
-* Footer
+* The Footer
 
   <img src="assets/readme_img/footer_ss.jpg" width="250">
 
   * Footer has a same color scheme as a navigation bar to keep the web site consistency.
   
-  * It also provides logo that is linked to the landing page and social media links which will open in a new window.
+  * It also provides logo that is linked to the landing page and social media links which will open in a new tab.
 
-  * It also has a disclailer line that disappears with the screen size is smaller to avoid congestion.
+  * The footer has a disclailer line which disappears with the screen size is smaller to avoid congestion.
 
-* Landing Page
+* The Landing Page
 
   <img src="assets/readme_img/index_page.jpg" width="300">
 
   * This page summarises the topic and the purpose of this web site 
   
-  * The landing page has a title followed by Hero image with title inside on the top of the page.
+  * The landing page has a title followed by Hero image with overlay text.
   
   * Summary of the topic follows the Hero image 
-  to explain what is web site is about.
+  to provide general idea about the subject.
   
-  * This page also provides large buttons with related photos beside them that links each section in common injury page.
+  * The page also provides large buttons with related photos beside them that links each section in common injury page.
 
 
 * Common injuries Page
 
   <img src="assets/readme_img/injuries_ss.jpg" width="300">
   
-  * Top of the page has the links to each injuries section in the page. Each link has a associated image beside it to match the landing page to have consistency but the shorter height to give more space to the paragraph below.
+  * Top of the page has the links to common injuries categorised by different parts of the body which are listed below within the page. Each link has a associated image beside it for more visual approach.
+  
+  * Links are identical to the ones in the index page except they have the shorter height to give more space to the paragraphs below.
+
+  * Each of the heading list has a large icon to represent the category to allow the user to see exactly which part the list would be applicable to.
 
 * Feedback page
   <img src="assets/readme_img/feedback_ss.jpg" width="300">
 
-  * This page is made for a user who wishes to contact us to express their opinion or share their stories.
-The page is made it simple so that a user doesn't get hesitation making a contact.
+  * This page allows a user to contact us to express their opinion or share their stories.
 
-  *  By the feedback from the mentor, this feedback page design was changed to a minimal looks for easier and clearer entry.
+  * The feedback page layout was changed from the wireframe as there was a suggenstion to keep the page simple and clear for the purpose.
+
+  *  This page allows the user to communicate with us by filling the infomataion and click the large submit button.
 
 ## Features Left to Implement
 
@@ -68,27 +69,29 @@ Initial design as Wireframe:
 
 <img src="wireframe/ms1_wireframe.jpg" width="400" height="200">
 
-The initial design for the web site was to have the large link button and associated images in alternative display in other rows, however the implementation is yet to made.
-
+The initial design for the web site was to have the large link buttons and associated images in alternative display in every other rows, however the implementation is yet to made.
 
 
 ## Technologies Used 
-Html5 and CSS3 including CSS grid and Bootstrap feature
 
-## Validator Testing
+  This web site is created using HTML5 and CSS3, and some bootstrap features include JavaScript.
 
-  * No errors were returned when passing through the official [W3C validator]("https://validator.w3.org/")
+## Testing
 
-  * No errors were found when passing through the official [(Jigsaw) validator]("https://jigsaw.w3.org/css-validator/")
+  * Validator Testing
+
+    * No errors were returned when passing through the official [W3C validator]("https://validator.w3.org/")
+
+    * No errors were found when passing through the official [(Jigsaw) validator]("https://jigsaw.w3.org/css-validator/")
 
 
-Test was carried out on different device sizes using Crome Developer tool and actual devices such as mobile phone and iPad.
+* Test was carried out on different device sizes using Crome Developer tool and actual devices such as mobile phone and iPad.
 
 
 
 ## Unfixed Bugs
 
----------NEED TO FILL OUT------------
+Socail network icons are slightly pushed to the bottom of the footer in the smaller device and needs adjusting but they have not been adjusted due to limited time available at this moment.
 
 ## Deployment
 
