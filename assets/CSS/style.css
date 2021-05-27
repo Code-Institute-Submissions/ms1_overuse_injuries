@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP&display=swap');
 :root {
-	--heading-font-family: 'noto sans', sans-serif;
-	--text-font-family: JP, san-serif;
+	--heading-font-family: 'Noto Sans', sans-serif;
+	--text-font-family: 'Noto Sans JP', san-serif;
 	--bg-color: #444444;
 }
 
@@ -30,6 +30,10 @@ h1,
 h2,
 h3 {
 	font-family: var(--heading-font-family);
+}
+
+p {
+	font-family: var(--text-font-family);
 }
 
 a {
@@ -156,7 +160,7 @@ footer span {
 }
 
 .cat-link img {
-	opacity: 0.1;
+	opacity: 0.05;
 }
 
 .cat-pic {
