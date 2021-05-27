@@ -43,7 +43,7 @@ There is much more detailed information widely available on the web and this sit
   * Bottom of the page also are large button links with associated images beside them to  sections in common injuries' page.
 
 
-* Common injuries Page
+* Common Injuries Page
 
   <img src="assets/readme_img/injuries_ss.jpg" width="300">
   
@@ -53,7 +53,7 @@ There is much more detailed information widely available on the web and this sit
 
   * Each of the heading list has a large icon before the title.
 
-* Feedback page
+* Feedback Page
 
   <img src="assets/readme_img/feedback_ss.jpg" width="300">
 
@@ -67,7 +67,7 @@ Initial design as Wireframe:
 
 <img src="wireframe/ms1_wireframe.jpg" width="400" height="200">
 
-The initial design for the web site was to have the large link buttons and associated images in alternative display in every other row, however the implementation is yet to made.
+The initial design for the web site was to have the large link buttons and associated images in alternative display in every other row which responds to suit on smaller screens, however the implementation is yet to made.
 
 
 ## Technologies Used 
@@ -95,8 +95,8 @@ Social network icons are slightly pushed to the bottom of the footer in the smal
 
 Following steps were taken to deploy the web site.
 1. Log in to GitHub and navigate to  ms1_overuse_injuries repository.
-2. Go to Page section in setting and change dropdown menu from source to master 
-3. After the diployment was completed the site address is deployed in the page which is __[here](https://mwmlln.github.io/ms1_overuse_injuries/)__
+2. Go to Page section in setting and change dropdown menu value from source to master 
+3. After the diployment was completed the site address link is provided in the page which is __[here](https://mwmlln.github.io/ms1_overuse_injuries/)__
 
 ## Credit
 
